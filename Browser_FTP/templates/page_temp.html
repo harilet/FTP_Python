@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{title}}</title>
+    <link rel="icon" href="data:,">
+    <script>
+
+    </script>
+</head>
+<body>
+    <a href="http://{{ip}}:{{port}}/backtrack"><--back</a>
+    <br>
+    <br>
+    {%for i in items %}
+    <a href="http://{{ip}}:{{port}}/download/{{i}}"> {{ i }} </a>
+    <br>
+    {% endfor%}
+</body>
+</html>
